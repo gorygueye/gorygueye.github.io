@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <!-- <link rel="icon" href="../../favicon.ico"> -->
 
-    <title>Gory Gueye</title>
+    <title>Melle Gory Gueye</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -24,12 +24,16 @@
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About</a></li>
-            <li role="presentation"><a href="#">Contact</a></li>
+            <!-- Encode on http://rot13.de/ -->
+            <script type="text/javascript">
+              var addr = '<yv ebyr="cerfragngvba"><n uers="znvygb:zvtabthrlr@lnubb.se">zvtabthrlr@lnubb.se</n></yv>';
+              document.write(addr.replace(/[a-zA-Z]/g, function(c) {
+                return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+              }));
+            </script>
           </ul>
         </nav>
-        <h3 class="text-muted">Gory Gueye</h3>
+        <h3 class="text-muted">Melle Gory Gueye</h3>
       </div>
 
       <div class="jumbotron">
