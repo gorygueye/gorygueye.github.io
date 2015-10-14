@@ -16,6 +16,9 @@
 
     <!-- Custom styles for this template -->
     <link href="jumbotron-narrow.css" rel="stylesheet">
+
+    <!-- FontAwsome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -35,29 +38,34 @@
         <h3 class="text-muted">Melle Gory Gueye</h3>
       </div>
 
-      <!-- <div class="jumbotron">
-        <h1>Jumbotron heading</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
-      </div> -->
-
-      <div class="row marketing">
+      <div class="row jumbotron">
         <div class="col-lg-4">
           <img src="http://www.babyanimalzoo.com/wp-content/uploads/2012/08/fancy-cats-a-proper-a-tiny-tie.jpg" class="img-responsive img-rounded" alt="My picture" style="transform: scale(-1, 1)">
         </div>
         <div class="col-lg-8">
-          <p>...</p>
+          <h1>Gory Gueye</h1>
+          <dl>
+            <dt><i class="fa fa-home"></i> Adresse</dt>
+            <dd>
+              29 bis Boulevard Gallieni<br />
+              93360 Neuilly-Plaisance
+            </dd>
+            <dt><i class="fa fa-envelope"></i> Email</dt>
+            <!-- Encode on http://rot13.de/ -->
+            <script type="text/javascript">
+              var addr = '<qq><n uers="znvygb:zvtabthrlr@lnubb.se">zvtabthrlr@lnubb.se</n></qq>';
+              document.write(addr.replace(/[a-zA-Z]/g, function(c) {
+                return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+              }));
+            </script>
+            <dt><i class="fa fa-phone"></i> Téléphone</dt>
+            <dd>+336.34.35.35.74</dd>
+          </dl>
         </div>
       </div>
 
       <div class="row marketing">
         <div class="col-lg-12">
-          <!-- Melle Gory GUEYE
-          29 bis Boulevard Gallieni
-          93360 Neuilly-Plaisance
-           : mignogueye@yahoo.fr
-           : 0634353574 -->
-
           <h3>Expérience professionnelle</h3>
           <dl class="dl-horizontal">
             <dt>Avril 2015 – Sep.2015</dt>
